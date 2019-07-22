@@ -119,8 +119,8 @@ Here's a small, but more realistic example of how we could use Spirit:
   (if (<= (length (command-line)) 0)
     (usage! 0)
     (begin
-      (def args (getopt-long)
-        `((-n ,string->symbol) (-a ,age->birthyear)))
+      (def args (getopt-long
+        `((-n ,string->symbol) (-a ,age->birthyear))))
       (cond
         ((contains? '-n args) (set! NAME (assocval (assoc '-n args))))
         ((contains? '-a args) (set! AGE (assocval (assoc '-a args))))))))
