@@ -24,8 +24,7 @@
 ;; Package
 ;; ---------------------------------------------------------------------------
 
-package: judah/spirit/getopt
-namespace: judah/spirit/getopt
+package: judah/spirit
 
 (import
   :judah/la

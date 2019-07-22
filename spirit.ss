@@ -25,7 +25,6 @@
 ;; ---------------------------------------------------------------------------
 
 package: judah/spirit
-namespace: judah/spirit
 
 (import
   :judah/la

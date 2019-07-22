@@ -1,1 +1,2 @@
-(package: judah)
+(package: judah
+  (depends: "github.com/kyoto-shift/la"))
