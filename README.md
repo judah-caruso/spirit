@@ -1,6 +1,6 @@
 # Spirit
 
-An *in spirit* port to [Gerbil Scheme](https://cons.io/) of [Evan Hanson's](www.foldling.org) R7RS command line parsing library, [Optimism](http://wiki.call-cc.org/eggref/5/optimism).
+An *in spirit* port to [Gerbil Scheme](https://cons.io/) of [Evan Hanson's](http://www.foldling.org) R7RS command line parsing library, [Optimism](http://wiki.call-cc.org/eggref/5/optimism).
 
 ### Description
 
